@@ -45,4 +45,7 @@
   |\- 06-version.udf_<descript>.txt         # Undocumented features can be interesting
   |
   ,\- 07-[Advisories | Warnings | vulnerabilities].<descript>.txt
-  \-- 07-vuln-<cve#>.<descript>.txt
+  |\- 07-vuln-<cve#>.<descript>.txt
+  |
+  ,\- 08-conf.<path-to-file.<ext>>.[<use case descript>.]txt
+  \-- 08-conf.etc-firejail-login.users-orig.txt
